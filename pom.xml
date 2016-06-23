@@ -5,5 +5,15 @@
   <version>0.1</version>
 
   <properties><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding></properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>uk.ac.ncl.flowers.polen</groupId>
+      <artifactId>polen-client</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/polen-client-1.0-withDependencies.jar</systemPath>
+    </dependency>
+  </dependencies>
 
 </project>
