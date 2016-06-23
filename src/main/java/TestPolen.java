@@ -6,7 +6,7 @@ public class TestPolen {
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-        String serviceUri = "http://www.w3id.org/synbio/polen";
+        String serviceUri = "http://synbio.ncl.ac.uk:8083/notification";
         MessagingSystem messagingSystem = new MessagingSystem.Microbase(serviceUri);
 
         try {
